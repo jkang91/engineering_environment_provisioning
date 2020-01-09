@@ -7,7 +7,7 @@ wait
 
 # Update Homebrew Cache and Tap Caskroom/Cask
 brew update && \
-brew tap caskroom/cask
+brew tap homebrew/cask
 wait
 
 # Install JDK (Manual password input required)
@@ -22,7 +22,7 @@ wait
 
 # Install iTerm2
 printf -- 'Installing iTerm... \n'
-brew install iTerm2
+brew cask install iTerm2
 wait
 
 # Install WebEx
